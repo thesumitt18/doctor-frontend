@@ -1,0 +1,32 @@
+# Node modules (installed dependencies)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build output (for compiled or transpiled code)
+dist/
+build/
+
+# OS-specific files
+.DS_Store           # macOS specific
+Thumbs.db           # Windows specific
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# npm package lock file (optional but can be ignored if you're using Yarn or another lock file)
+package-lock.json
+
+# Coverage directory for test coverage reports
+coverage/
+
+# Debug files
+debug/
